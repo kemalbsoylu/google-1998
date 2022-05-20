@@ -2,3 +2,48 @@
     display: flex;
     justify-content: center;    
 }
+ul {
+    list-style-type: none;
+}
+.small {
+    font-size: small;
+    padding: 0;
+    margin: 0;
+}
+.item1 {
+    grid-area: search;
+    background-color: #eeeeee;
+    padding-bottom: 17px;
+    margin: 2px 2px 2px 2px;
+}
+.item2 {
+    grid-area: special;
+    background-color: #7ee5da;
+    margin: 0 1px 2px 2px;   
+}
+.item3 {
+    grid-area: help;
+    background-color: #70ccc2;
+    margin: 0 1px 2px 1px;
+}
+.item4 {
+    grid-area: subscribe;
+    background-color: #62b3aa;
+    margin: 0 2px 2px 1px;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        'search search search'
+        'special help subscribe';
+    width: 90%;
+  }
+  
+.grid-container > div {
+    text-align: center;
+}
+
+footer {
+    font-size: small;
+    margin-top: 16px;
+}
