@@ -38,8 +38,8 @@
 .grid-container {
     display: grid;
     grid-template-areas: 
-        'search search search'
-        'special help subscribe';
+        'search search search search search search search search search search search'
+        'special special special special help help subscribe subscribe subscribe subscribe subscribe';
     width: 90%;
   }
   
